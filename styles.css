@@ -1,0 +1,269 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+}
+
+.resume {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+  color: #2c3e50;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #3498db;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 22px;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 5px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+h4 {
+  font-size: 18px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 5px 0;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header Styles */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  margin-top: 10px;
+  font-size: 14px;
+}
+/* Projects Section */
+.projects {
+  margin-bottom: 30px;
+}
+
+.project {
+  margin-bottom: 25px;
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project h4 {
+  font-size: 20px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.project .date {
+  font-style: italic;
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.project ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.project ul li {
+  margin-bottom: 5px;
+}
+
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  background: #3498db;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.github-link:hover {
+  background: #2980b9;
+}
+
+.github-link i {
+  margin-right: 8px;
+}
+/* Section Styles */
+section {
+  margin-bottom: 30px;
+}
+
+.date {
+  font-style: italic;
+  color: #666;
+  font-size: 14px;
+}
+
+/* Skills Section */
+.skills {
+  margin-bottom: 30px;
+}
+
+.skill-category {
+  margin-bottom: 20px;
+}
+
+.skill-category h4 {
+  font-size: 18px;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #3498db;
+  color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.skill-item:hover {
+  background: #2980b9;
+  transform: translateY(-5px);
+}
+
+.skill-item i {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.skill-item span {
+  font-size: 14px;
+}
+
+/* Interests Section */
+.interests {
+  margin-bottom: 30px;
+}
+
+.interests-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.interest-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #2ecc71;
+  color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.interest-item:hover {
+  background: #27ae60;
+  transform: translateY(-5px);
+}
+
+.interest-item i {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.interest-item span {
+  font-size: 14px;
+}
+
+/* Soft Skills Section */
+.soft-skills {
+  margin-bottom: 30px;
+}
+
+.soft-skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.soft-skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #e67e22;
+  color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.soft-skill-item:hover {
+  background: #d35400;
+  transform: translateY(-5px);
+}
+
+.soft-skill-item i {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.soft-skill-item span {
+  font-size: 14px;
+}
